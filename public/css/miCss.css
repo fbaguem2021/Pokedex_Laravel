@@ -1,0 +1,19 @@
+:root {
+    --bt-green: rgba(25, 135, 84, 1) !important;
+    --bt-blue:  rgba(13, 110, 253, 1) !important;
+}
+.floating-button {
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right: 10px;
+}
+.floating-button i {
+    bottom: 0;
+    font-size: 2.5rem;
+    /* color: greenyellow; */
+    color: var(--bt-blue);
+}
+.pokedex-background {
+    background: url("../media/pokedex.png");
+}
